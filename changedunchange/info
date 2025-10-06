@@ -1,0 +1,10 @@
+my_cesm_sandbox_vents
+is the sink for DOCr
+
+DOC_sed_remin needs to be added into ecosys_Diagnostics
+
+will modify to add
+
+https://marbl-ecosys.github.io/versions/cesm2.0/dev-guide/add-diagnostic.html 
+
+use website above for directions
