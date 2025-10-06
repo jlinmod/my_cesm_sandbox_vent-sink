@@ -670,19 +670,19 @@ DOC_remin :
    longname : DOC Remineralization
    units : mmol/m^3/s
    vertical_grid : layer_avg
-   frequency : low
+   frequency : medium
    operator : average
 DOCr_remin :
    longname : DOCr Remineralization
    units : mmol/m^3/s
    vertical_grid : layer_avg
-   frequency : low
+   frequency : medium
    operator : average
 DOCr_sed_remin :
    longname : DOCr vent Remineralization
    units : mmol/m^3/s
    vertical_grid : layer_avg
-   frequency : low
+   frequency : medium
    operator : average
 DON_prod :
    longname : DON Production
@@ -694,13 +694,13 @@ DON_remin :
    longname : DON Remineralization
    units : mmol/m^3/s
    vertical_grid : layer_avg
-   frequency : low
+   frequency : medium
    operator : average
 DONr_remin :
    longname : DONr Remineralization
    units : mmol/m^3/s
    vertical_grid : layer_avg
-   frequency : low
+   frequency : medium
    operator : average
 DOP_prod :
    longname : DOP Production
@@ -712,13 +712,13 @@ DOP_remin :
    longname : DOP Remineralization
    units : mmol/m^3/s
    vertical_grid : layer_avg
-   frequency : low
+   frequency : medium
    operator : average
 DOPr_remin :
    longname : DOPr Remineralization
    units : mmol/m^3/s
    vertical_grid : layer_avg
-   frequency : low
+   frequency : medium
    operator : average
 DOP_loss_P_bal :
    longname : DOP loss, due to P budget balancing
@@ -778,13 +778,13 @@ FESEDFLUX :
    longname : Iron Sediment Flux
    units : nmol/cm^2/s
    vertical_grid : layer_avg
-   frequency : never
+   frequency : medium
    operator : average
 DOCFLUIDY :
    longname : DOC fluid flux
    units : 1/s
    vertical_grid : layer_avg
-   frequency : never
+   frequency : medium
    operator : average
 
 # Particulate 2D diags
@@ -898,13 +898,13 @@ POC_sFLUX_IN :
    longname : POC sFlux into Cell
    units : mmol/m^3 cm/s
    vertical_grid : layer_avg
-   frequency : never
+   frequency : medium
    operator : average
 POC_hFLUX_IN :
    longname : POC hFlux into Cell
    units : mmol/m^3 cm/s
    vertical_grid : layer_avg
-   frequency : never
+   frequency : medium
    operator : average
 POC_PROD :
    longname : POC Production
@@ -916,13 +916,13 @@ POC_REMIN_DOCr :
    longname : POC Remineralization routed to DOCr
    units : mmol/m^3/s
    vertical_grid : layer_avg
-   frequency : low
+   frequency : medium
    operator : average
 POC_REMIN_DIC :
    longname : POC Remineralization routed to DIC
    units : mmol/m^3/s
    vertical_grid : layer_avg
-   frequency : low
+   frequency : medium
    operator : average
 POP_FLUX_IN :
    longname : POP Flux into Cell
@@ -1060,7 +1060,7 @@ Nfix :
    longname : Total N Fixation
    units : mmol/m^3/s
    vertical_grid : layer_avg
-   frequency : never
+   frequency : medium
    operator : average
 
 ###############
