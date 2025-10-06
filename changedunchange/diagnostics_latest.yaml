@@ -682,7 +682,7 @@ DOCr_sed_remin :
    longname : DOCr vent Remineralization
    units : mmol/m^3/s
    vertical_grid : layer_avg
-   frequency : low
+   frequency : medium
    operator : average
 DON_prod :
    longname : DON Production
@@ -784,7 +784,7 @@ DOCFLUIDY :
    longname : DOC fluid flux
    units : 1/s
    vertical_grid : layer_avg
-   frequency : never
+   frequency : medium
    operator : average
 
 # Particulate 2D diags
